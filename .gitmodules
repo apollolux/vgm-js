@@ -1,0 +1,3 @@
+[submodule "ym2612"]
+	path = ym2612
+	url = git://github.com/apollolux/ym2612-js.git
