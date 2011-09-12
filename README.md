@@ -16,7 +16,22 @@ Instructions for usage of each tool will be provided as tools are added.
 
 # API
 
-Todo!
+<h3>How to Initialize</h3>
+<dl>
+	<dt>new VGM(str_data);</dt>
+		<dd>If successful, a new VGM object is returned.</dd>
+		<dd>Arguments: `str_data` is a string of binary characters (TODO: account for bytearrays as well).</dd>
+</dl>
+<dl>
+	<dt>string VGM.toText()</dt>
+		<dd>Parse a VGM into human-readable text.</dd>
+		<dd>Arguments: none</dd>
+		<dd>Return: string vgm_text</dd>
+	<!-- dt>Object VGM.toMIDI() (TODO)</dt>
+		<dd>Parse a VGM into a MIDI sequence.</dd>
+		<dd>Arguments: TODO</dd>
+		<dd>Return: TODO</dd -->
+</dl>
 
 # Disclaimer
 
